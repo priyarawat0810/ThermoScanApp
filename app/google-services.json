@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1015510303092",
+    "project_id": "thermoscanapp",
+    "storage_bucket": "thermoscanapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015510303092:android:ec1086605be181a34eac21",
+        "android_client_info": {
+          "package_name": "com.example.thermoscanapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015510303092-bettkg733e8hh4bb72mqjadmrvs4b485.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvBaJG3Sye0do6DheygKgEgKShWsejNbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015510303092-bettkg733e8hh4bb72mqjadmrvs4b485.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
