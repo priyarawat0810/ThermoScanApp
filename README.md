@@ -1,21 +1,24 @@
-<h3 align="center">**T H E R M O S C A N**</h3>
-<h5 align="center">Android application to measure and maintain record of thermal screening</h5>
+**<h3 align="center"> T H E R M O S C A N </h3>**
+
+<h5 align="center">Android application for thermal screening and maintaining its record!</h5>
 
 ----
 <br>
-####Motivation:
+
+#### Motivation:
+
 Currently, we are fighting against an unseen virus which is spreading day by day. Due to which there is a need to escalate the screening and testing process. Though some countries have made vaccines for coronavirus, the mass production and distribution are still not completed. So, the battle is on and, we have to face it smartly.
 
 As responsible citizens of this country, we wanted to contribute to tackling this situation more effectively. And this project is one such step towards it!
 <br>
-####Problem:
+#### Problem:
 Thermal screening is a preventive measure since fever is one of the most common symptoms of COVID-19. Although contactless IR thermometers are available, they are incapable of maintaining the record of patients.
 <br>
-####Solution:
+#### Solution:
 If we found a suspect of COVID-19 and we have done his/her thermal
 screening using the proposed setup. Then, we will be able to store his/her picture along body temperature and GPS location which will help us keep track of him/her also, people around him/her could be alerted about the patients' health conditions.
 <br>
-####Hardware
+#### Hardware
 Arduino Nano is used as it has an in-built USB interface which is important to communicate with the android phone using the ThermoScan App.
 Sensors used:
 - [MLX90614](https://www.melexis.com/en/product/MLX90614/Digital-Plug-Play-Infrared-Thermometer-TO-Can)
@@ -25,7 +28,8 @@ Sensors used:
 </p>
 
 <br>
-####Features:
+
+#### Features:
 - Registration and mobile verification (OTP)
 - Login using Firebase Authentication
 - Sceen body temp. and save photos with GPS location
@@ -37,7 +41,7 @@ Sensors used:
 - Logout
 <br>
 
-####User Interface:
+#### User Interface:
 <table><tr><td>
  <img src="https://user-images.githubusercontent.com/43718753/106834205-f973d400-66ba-11eb-8aa5-40d2606f27c6.jpg" align="top">
   Scan, Upload, Records and Account feature</td><td>
