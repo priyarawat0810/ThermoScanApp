@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.thermoscanapp.UserSession.EditAccountActivity">
+    tools:context="com.example.EasyScanApp.EditAccountActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -38,10 +38,10 @@
         android:paddingEnd="8dp"
         android:paddingBottom="12dp"
         android:src="@drawable/logout"
+        android:tint="#ffffff"
         app:layout_constraintBottom_toTopOf="@+id/divider17"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:tint="#ffffff" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <View
@@ -72,13 +72,13 @@
         android:layout_width="12dp"
         android:layout_height="12dp"
         android:elevation="2.1dp"
+        android:tint="@color/colorAccent"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewCross"
         app:layout_constraintEnd_toEndOf="@+id/imageViewCross"
         app:layout_constraintStart_toStartOf="@+id/imageViewCross"
         app:layout_constraintTop_toTopOf="@+id/imageViewCross"
-        app:srcCompat="@drawable/cross"
-        app:tint="@color/colorAccent" />
+        app:srcCompat="@drawable/cross" />
 
     <ImageView
         android:id="@+id/imageViewCross"
@@ -89,10 +89,10 @@
         android:elevation="2dp"
         android:padding="2.5dp"
         android:src="@drawable/circle"
+        android:tint="#F3F3F3"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="@+id/profile_image"
-        app:layout_constraintEnd_toEndOf="@+id/profile_image"
-        app:tint="#F3F3F3" />
+        app:layout_constraintEnd_toEndOf="@+id/profile_image" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"

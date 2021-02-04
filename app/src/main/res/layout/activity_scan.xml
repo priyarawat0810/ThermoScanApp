@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScanActivity">
+
+    <TextureView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/texture"
+        android:layout_alignParentTop="true"/>
+
+    <View
+        android:id="@+id/divider30"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1A000000"
+        android:elevation="1dp"
+        android:layout_above="@+id/btn_takepicture"/>
+
+
+    <ImageView
+            android:id="@+id/btn_takepicture"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="40dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/camera_button"
+            android:src="@drawable/ic_camerafinal"
+            app:tint="#FFFFFF"
+            android:elevation="0.001dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@id/btn_takepicture">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Begin"
+            android:id="@+id/buttonStart"
+            android:onClick="onClickStart"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            android:id="@+id/buttonStop"
+            android:onClick="onClickStop"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:id="@+id/buttonClear"
+            android:onClick="onClickClear"/>
+    </LinearLayout>
+</RelativeLayout>
