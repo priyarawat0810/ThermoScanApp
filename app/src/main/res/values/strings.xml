@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ThermoScanApp</string>
+    <string name="camera_button">Capture Picture</string>
 </resources>
